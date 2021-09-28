@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Collage Registration Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+
+h2 { 
+    text-align: center;
+        
+}
+
+body {background-color: lightblue; 
+    border: solid 2px;
+       padding: 2%;
+}
+
+</style>
+
+</head>
+
+<body>
+    ​
+    <div class="container">
+        <h2>Personal Information</h2>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="First Name"> <b>First Name:</b> </label>
+                <input type="First Name" class="form-control" id="First Name" placeholder="First Name" name="First Name">
+            </div>
+            <div class="form-group">
+                <label for="Last Name"> <b>Last Name:</b></label>
+                <input type="Last Name" class="form-control" id="Last Name" placeholder="Last Name" name="Last Name">
+            </div>
+            <div class="form-group">
+                <label for="Email id"><b>Email id:</b></label>
+                <input type="Email id" class="form-control" id="Email id" placeholder="Email id" name="Email id">
+            </div>
+            <div class="form-group">
+                <label for="pwd"><b>Password:</b></label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-group">
+                <label for="digit"><b>Contact No.:</b></label>
+                <input type="digit" class="form-control" id="digit" placeholder="9876543210" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="Gender:"><b>Gender:</b></label>
+                <input type="radio" name="Gender" value="Male"> Male
+
+                <input type="radio" name="Gender" value="Female"> Female
+
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            <div class="form-group">
+                <label for="Hobbys:"><b>Hobbys:</b></label>
+                <input type="checkbox" name="Sports" value="Sports">Sports
+
+                <input type="checkbox" name="Book Reading" value="Book Reading">Book Reading
+
+                <input type="checkbox" name="Singing" value="Singing">Singing
+            </div>
+            <h2>Qualification Detail</h2>
+            <div class="form-group">
+                <label for="Select Course:"><b>Select Course:</b></label>
+                <select Name="select Course">
+                    <option value="Select Course "> --Select Course-- </option>
+                    <option value="BCA"> BCA </option>
+                    <option value="BBA"> BBA </option>
+                    <option value="BBM"> BBM </option>
+                    <option value="MCA"> MCA </option>
+                    <option value="MBA"> MBA </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Select Collage:"><b>Select Collage:</b></label>
+                <select Name="Select Collage">
+                    select Name="select collage">
+                    <option value="Select Course"> --Select Collage-- </option>
+                    <option value="G.H.Raisoni institude of business management "> G.H.Raisoni institude of business
+                        management
+                    </option>
+                    <option value="IMR, jalgaon"> IMR, Jalgaon </option>
+                    <option value="Moolji Jetha "> Moolji Jetha, Jalgaon </option>
+                    <option value="MIT"> MIT, pune </option>
+                    <option value="Sinhagad COllage, Pune"> Sinhagad Collage, Pune </option>
+                </select>
+            </div>
+            <div1 class="form-group">
+                <h5>ADDRESS:</h5>
+                <textarea name="Massage" rows="5" cols="60">
+                </textarea>
+            </div1>
+            <div class="form-group">
+                <label for="Upload Document"><b>Upload Document</b></label>
+                <input type="file" class="form-control-file border" name="file">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    ​
+</body>
+
+</html>
+​
